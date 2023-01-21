@@ -4,6 +4,9 @@
 
 [BYTHEWAY](./BYTHEWAY.md)
 
+## 服务端
+
+[README of AseaChat-backend-python-fastapi](./AseaChat-backend-python-fastapi/README.md)
 
 ## 参考文档
 
