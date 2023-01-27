@@ -10,13 +10,19 @@
 		D0BD3A29297C8C0C0036F22A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD3A28297C8C0C0036F22A /* AppDelegate.m */; };
 		D0BD3A2C297C8C0C0036F22A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD3A2B297C8C0C0036F22A /* SceneDelegate.m */; };
 		D0BD3A2F297C8C0C0036F22A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD3A2E297C8C0C0036F22A /* ViewController.m */; };
-		D0BD3A32297C8C0C0036F22A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BD3A30297C8C0C0036F22A /* Main.storyboard */; };
 		D0BD3A34297C8C0D0036F22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BD3A33297C8C0D0036F22A /* Assets.xcassets */; };
-		D0BD3A37297C8C0D0036F22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BD3A35297C8C0D0036F22A /* LaunchScreen.storyboard */; };
 		D0BD3A3A297C8C0D0036F22A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD3A39297C8C0D0036F22A /* main.m */; };
 		D0BD3A44297C8C0D0036F22A /* ASeaChat_frontend_iOS_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD3A43297C8C0D0036F22A /* ASeaChat_frontend_iOS_OCTests.m */; };
 		D0BD3A4E297C8C0D0036F22A /* ASeaChat_frontend_iOS_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD3A4D297C8C0D0036F22A /* ASeaChat_frontend_iOS_OCUITests.m */; };
 		D0BD3A50297C8C0D0036F22A /* ASeaChat_frontend_iOS_OCUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD3A4F297C8C0D0036F22A /* ASeaChat_frontend_iOS_OCUITestsLaunchTests.m */; };
+		D0BD3A5F297F89D30036F22A /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD3A5E297F89D30036F22A /* HelloWorld.m */; };
+		D0BD3A63297F93600036F22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BD3A61297F93600036F22A /* LaunchScreen.storyboard */; };
+		D0BD3A8C298128990036F22A /* Draft.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0BD3A8B298128990036F22A /* Draft.storyboard */; };
+		D0BD3AB8298166140036F22A /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD3AB7298166140036F22A /* MainView.m */; };
+		D0BD3ABB298166290036F22A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD3ABA298166290036F22A /* MainViewController.m */; };
+		D0BD3ABF298167F00036F22A /* ASCMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD3ABE298167F00036F22A /* ASCMineViewController.m */; };
+		D0BD3AC2298168070036F22A /* ASCMineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BD3AC1298168070036F22A /* ASCMineView.m */; };
+		E5256A44422B9DA38F3E7D4C /* libPods-ASeaChat-frontend-iOS-OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5700FC5873F94D4144B7C2C8 /* libPods-ASeaChat-frontend-iOS-OC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5700FC5873F94D4144B7C2C8 /* libPods-ASeaChat-frontend-iOS-OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASeaChat-frontend-iOS-OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BD3A24297C8C0C0036F22A /* ASeaChat-frontend-iOS-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASeaChat-frontend-iOS-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BD3A27297C8C0C0036F22A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0BD3A28297C8C0C0036F22A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,9 +51,7 @@
 		D0BD3A2B297C8C0C0036F22A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		D0BD3A2D297C8C0C0036F22A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D0BD3A2E297C8C0C0036F22A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D0BD3A31297C8C0C0036F22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0BD3A33297C8C0D0036F22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D0BD3A36297C8C0D0036F22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0BD3A38297C8C0D0036F22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0BD3A39297C8C0D0036F22A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0BD3A3F297C8C0D0036F22A /* ASeaChat-frontend-iOS-OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASeaChat-frontend-iOS-OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +59,20 @@
 		D0BD3A49297C8C0D0036F22A /* ASeaChat-frontend-iOS-OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASeaChat-frontend-iOS-OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BD3A4D297C8C0D0036F22A /* ASeaChat_frontend_iOS_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASeaChat_frontend_iOS_OCUITests.m; sourceTree = "<group>"; };
 		D0BD3A4F297C8C0D0036F22A /* ASeaChat_frontend_iOS_OCUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASeaChat_frontend_iOS_OCUITestsLaunchTests.m; sourceTree = "<group>"; };
+		D0BD3A5D297F89D30036F22A /* HelloWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorld.h; sourceTree = "<group>"; };
+		D0BD3A5E297F89D30036F22A /* HelloWorld.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorld.m; sourceTree = "<group>"; };
+		D0BD3A61297F93600036F22A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0BD3A8B298128990036F22A /* Draft.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Draft.storyboard; sourceTree = "<group>"; };
+		D0BD3AB6298166140036F22A /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		D0BD3AB7298166140036F22A /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		D0BD3AB9298166290036F22A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D0BD3ABA298166290036F22A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D0BD3ABD298167F00036F22A /* ASCMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASCMineViewController.h; sourceTree = "<group>"; };
+		D0BD3ABE298167F00036F22A /* ASCMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASCMineViewController.m; sourceTree = "<group>"; };
+		D0BD3AC0298168070036F22A /* ASCMineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASCMineView.h; sourceTree = "<group>"; };
+		D0BD3AC1298168070036F22A /* ASCMineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASCMineView.m; sourceTree = "<group>"; };
+		D3DC3AAD590E055D2E4DD7B2 /* Pods-ASeaChat-frontend-iOS-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASeaChat-frontend-iOS-OC.release.xcconfig"; path = "Target Support Files/Pods-ASeaChat-frontend-iOS-OC/Pods-ASeaChat-frontend-iOS-OC.release.xcconfig"; sourceTree = "<group>"; };
+		D516687C91BFCF893D3765AE /* Pods-ASeaChat-frontend-iOS-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASeaChat-frontend-iOS-OC.debug.xcconfig"; path = "Target Support Files/Pods-ASeaChat-frontend-iOS-OC/Pods-ASeaChat-frontend-iOS-OC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5256A44422B9DA38F3E7D4C /* libPods-ASeaChat-frontend-iOS-OC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98E69A3744E702954849B91E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5700FC5873F94D4144B7C2C8 /* libPods-ASeaChat-frontend-iOS-OC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA0FDD8572F475CF79C469C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D516687C91BFCF893D3765AE /* Pods-ASeaChat-frontend-iOS-OC.debug.xcconfig */,
+				D3DC3AAD590E055D2E4DD7B2 /* Pods-ASeaChat-frontend-iOS-OC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D0BD3A1B297C8C0B0036F22A = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +125,8 @@
 				D0BD3A42297C8C0D0036F22A /* ASeaChat-frontend-iOS-OCTests */,
 				D0BD3A4C297C8C0D0036F22A /* ASeaChat-frontend-iOS-OCUITests */,
 				D0BD3A25297C8C0C0036F22A /* Products */,
+				CA0FDD8572F475CF79C469C5 /* Pods */,
+				98E69A3744E702954849B91E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,16 +143,19 @@
 		D0BD3A26297C8C0C0036F22A /* ASeaChat-frontend-iOS-OC */ = {
 			isa = PBXGroup;
 			children = (
+				D0BD3ABC298167B80036F22A /* ASCMineViewController */,
+				D0BD3AB5298165C30036F22A /* MainViewController */,
+				D0BD3A5C297F89B30036F22A /* HelloWorld */,
 				D0BD3A27297C8C0C0036F22A /* AppDelegate.h */,
 				D0BD3A28297C8C0C0036F22A /* AppDelegate.m */,
 				D0BD3A2A297C8C0C0036F22A /* SceneDelegate.h */,
 				D0BD3A2B297C8C0C0036F22A /* SceneDelegate.m */,
 				D0BD3A2D297C8C0C0036F22A /* ViewController.h */,
 				D0BD3A2E297C8C0C0036F22A /* ViewController.m */,
-				D0BD3A30297C8C0C0036F22A /* Main.storyboard */,
 				D0BD3A33297C8C0D0036F22A /* Assets.xcassets */,
-				D0BD3A35297C8C0D0036F22A /* LaunchScreen.storyboard */,
 				D0BD3A38297C8C0D0036F22A /* Info.plist */,
+				D0BD3A61297F93600036F22A /* LaunchScreen.storyboard */,
+				D0BD3A8B298128990036F22A /* Draft.storyboard */,
 				D0BD3A39297C8C0D0036F22A /* main.m */,
 			);
 			path = "ASeaChat-frontend-iOS-OC";
@@ -136,6 +178,37 @@
 			path = "ASeaChat-frontend-iOS-OCUITests";
 			sourceTree = "<group>";
 		};
+		D0BD3A5C297F89B30036F22A /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD3A5D297F89D30036F22A /* HelloWorld.h */,
+				D0BD3A5E297F89D30036F22A /* HelloWorld.m */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		D0BD3AB5298165C30036F22A /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD3AB6298166140036F22A /* MainView.h */,
+				D0BD3AB7298166140036F22A /* MainView.m */,
+				D0BD3AB9298166290036F22A /* MainViewController.h */,
+				D0BD3ABA298166290036F22A /* MainViewController.m */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		D0BD3ABC298167B80036F22A /* ASCMineViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0BD3ABD298167F00036F22A /* ASCMineViewController.h */,
+				D0BD3ABE298167F00036F22A /* ASCMineViewController.m */,
+				D0BD3AC0298168070036F22A /* ASCMineView.h */,
+				D0BD3AC1298168070036F22A /* ASCMineView.m */,
+			);
+			path = ASCMineViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0BD3A53297C8C0D0036F22A /* Build configuration list for PBXNativeTarget "ASeaChat-frontend-iOS-OC" */;
 			buildPhases = (
+				79414D72A550723E34780F23 /* [CP] Check Pods Manifest.lock */,
 				D0BD3A20297C8C0C0036F22A /* Sources */,
 				D0BD3A21297C8C0C0036F22A /* Frameworks */,
 				D0BD3A22297C8C0C0036F22A /* Resources */,
@@ -239,9 +313,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0BD3A37297C8C0D0036F22A /* LaunchScreen.storyboard in Resources */,
+				D0BD3A8C298128990036F22A /* Draft.storyboard in Resources */,
+				D0BD3A63297F93600036F22A /* LaunchScreen.storyboard in Resources */,
 				D0BD3A34297C8C0D0036F22A /* Assets.xcassets in Resources */,
-				D0BD3A32297C8C0C0036F22A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,15 +335,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79414D72A550723E34780F23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ASeaChat-frontend-iOS-OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0BD3A20297C8C0C0036F22A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BD3A5F297F89D30036F22A /* HelloWorld.m in Sources */,
 				D0BD3A2F297C8C0C0036F22A /* ViewController.m in Sources */,
 				D0BD3A29297C8C0C0036F22A /* AppDelegate.m in Sources */,
 				D0BD3A3A297C8C0D0036F22A /* main.m in Sources */,
+				D0BD3ABB298166290036F22A /* MainViewController.m in Sources */,
 				D0BD3A2C297C8C0C0036F22A /* SceneDelegate.m in Sources */,
+				D0BD3AB8298166140036F22A /* MainView.m in Sources */,
+				D0BD3ABF298167F00036F22A /* ASCMineViewController.m in Sources */,
+				D0BD3AC2298168070036F22A /* ASCMineView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,25 +408,6 @@
 			targetProxy = D0BD3A4A297C8C0D0036F22A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		D0BD3A30297C8C0C0036F22A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0BD3A31297C8C0C0036F22A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D0BD3A35297C8C0D0036F22A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D0BD3A36297C8C0D0036F22A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D0BD3A51297C8C0D0036F22A /* Debug */ = {
@@ -437,6 +522,7 @@
 		};
 		D0BD3A54297C8C0D0036F22A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D516687C91BFCF893D3765AE /* Pods-ASeaChat-frontend-iOS-OC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,9 +533,10 @@
 				INFOPLIST_FILE = "ASeaChat-frontend-iOS-OC/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,13 +544,17 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "wang.xvbo.ASeaChat-frontend-iOS-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D0BD3A55297C8C0D0036F22A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3DC3AAD590E055D2E4DD7B2 /* Pods-ASeaChat-frontend-iOS-OC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,9 +565,10 @@
 				INFOPLIST_FILE = "ASeaChat-frontend-iOS-OC/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -484,8 +576,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "wang.xvbo.ASeaChat-frontend-iOS-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

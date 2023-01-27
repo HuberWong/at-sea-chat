@@ -6,6 +6,9 @@
 //
 
 #import "SceneDelegate.h"
+#import "ViewController.h"
+#import "ASCMineViewController.h"
+#import "AppDelegate.h"
 
 @interface SceneDelegate ()
 
@@ -18,6 +21,33 @@
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    
+//    UIWindowScene *windowScene = (UIWindowScene *) scene;
+//    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    ViewController *initialViewController = [[ViewController alloc] init];
+//    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:initialViewController];
+//    _window.rootViewController = navController;
+//    [_window makeKeyAndVisible];
+//    _window.windowScene = windowScene;
+    
+    ASCMineViewController *ASCmineViewController = [[ASCMineViewController alloc] init];
+    ASCMineViewController *mineViewController_1 = [[ASCMineViewController alloc] init];
+    ViewController *viewController = [[ViewController alloc] init];
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    [tabBarController setViewControllers:@[viewController ,mineViewController_1, ASCmineViewController]];
+//    tabBarController.delegate = [[AppDelegate alloc] init];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:tabBarController];
+    
+    UIWindowScene *windowScene = (UIWindowScene *) scene;
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
+    self.window.windowScene = windowScene;
+    
+    
+    
 }
 
 

@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+AFNetworking in Pods, no dependencies
+Pods-ASeaChat-frontend-iOS-OC in Pods, depends on:
+AFNetworking in Pods (explicit)
+ASeaChat-frontend-iOS-OC in ASeaChat-frontend-iOS-OC, depends on:
+Pods-ASeaChat-frontend-iOS-OC in Pods (implicit dependency via file 'libPods-ASeaChat-frontend-iOS-OC.a' in build phase 'Link Binary')
+AFNetworking in Pods (implicit dependency via options '-lAFNetworking' in build setting 'OTHER_LDFLAGS')
