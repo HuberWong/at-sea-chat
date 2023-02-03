@@ -95,7 +95,6 @@ def login(username: str, password: str) -> dict[str: bool, str: str, str: Option
         status['massage'] = 'the user password is incorrect'
         return status
 
-    # TODO 生成 token 并加入到 status 中
     token_info = _insert_token(user_info['userid'])
     if token_info['isInsert']:
         status['isOk'] = True
