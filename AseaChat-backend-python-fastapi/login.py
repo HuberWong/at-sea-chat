@@ -16,7 +16,7 @@ db_config: dict = {
 digit_of_token_bits = 32  # token 为 32 位，at_sea_chat_db 数据库的 token 表的 token 字段亦为 32 位
 
 
-def _insert(sql: str, args: tuple) -> ():
+def _insert(sql: str, args: tuple) -> None:
     connection = pymysql.connect(**db_config)
     with connection:
         with connection.cursor() as cursor:
@@ -33,10 +33,10 @@ def _selcet_one(sql: str, args: tuple) -> Optional[dict[str, str]]:
             return result
 
 
-def add_user(user_name: str, password: str, email: str) -> dict[str: bool, str: str]:
-    status: dict[str: bool, str: str] = {"isOK": False,
-                                         'massage': 'it is more than 255 characters the user_name or password or email '
-                                                    'contains'}
+def add_user(user_name: str, password: str, email: str) -> dict[str, str]:
+    status = {"isOK": "False",
+              'massage': 'it is more than 255 characters the user_name or password or email '
+                         'contains'}
     if len(user_name) > 255 or len(password) > 255 or len(email) > 255:
         return status
     if select_user(user_name) is not None:
@@ -46,7 +46,7 @@ def add_user(user_name: str, password: str, email: str) -> dict[str: bool, str: 
     sql: str = "INSERT INTO `user` (username, password, email) VALUE (%s, %s, %s)"
     args: tuple = (user_name, password, email)
     _insert(sql, args)
-    status['isOk'] = True
+    status['isOk'] = 'True'
     status['massage'] = f'successfully create the user {user_name}'
     return status
 
@@ -63,7 +63,7 @@ def _select_token_by_token(token: str) -> dict[str: str, str: int, str: datetime
     return _selcet_one(sql, args)
 
 
-def _insert_token(userid: int) -> dict[str: bool, str: Optional[str], str: str]:
+def _insert_token(userid: int) -> dict[str: Optional[str]]:
     status = {'isInsert': True,
               'token': None,
               'massage': 'successfully insert token'}
@@ -84,8 +84,8 @@ def _insert_token(userid: int) -> dict[str: bool, str: Optional[str], str: str]:
     return status
 
 
-def login(username: str, password: str) -> dict[str: bool, str: str, str: Optional[str]]:
-    status = {'isOk': False,
+def login(username: str, password: str) -> dict[str: Optional[str]]:
+    status = {'isOk': 'False',
               'massage': 'the user name dose not exist',
               'token': None}
     user_info: Optional[dict[str, str]] = select_user(username)
@@ -97,7 +97,7 @@ def login(username: str, password: str) -> dict[str: bool, str: str, str: Option
 
     token_info = _insert_token(user_info['userid'])
     if token_info['isInsert']:
-        status['isOk'] = True
+        status['isOk'] = 'True'
         status['massage'] = 'successfully login'
         status['token'] = token_info['token']
         return status
@@ -106,8 +106,8 @@ def login(username: str, password: str) -> dict[str: bool, str: str, str: Option
         return status
 
 
-def correct_token(userid: int, token: str) -> dict[str: bool, str: str]:
-    status = {'isActive': False,
+def correct_token(userid: int, token: str) -> dict[str: str]:
+    status = {'isActive': 'False',
               'massage': 'token dose note exist'}
     token_info = _select_token_by_token(token)
     if token_info is None:
@@ -115,7 +115,7 @@ def correct_token(userid: int, token: str) -> dict[str: bool, str: str]:
     if token_info['userid'] != userid:
         status['massage'] = 'the token dose not match the userid'
         return status
-    status['isActive'] = True
+    status['isActive'] = 'True'
     status['massage'] = 'this is a correct token'
     return status
 
