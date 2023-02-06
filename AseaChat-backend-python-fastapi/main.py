@@ -1,5 +1,5 @@
+import uvicorn
 from fastapi import FastAPI, Depends, HTTPException
-from login import add_user, login, correct_token
 
 app = FastAPI()
 
@@ -10,10 +10,18 @@ async def root():
 
 
 @app.post("/register/")
-async def register(user_name: str, password: str, email: str):
-    return add_user(user_name, password, email)
+async def register(username: str, password: str):
+    print(f'get username: {username} and password: {password}' )
+    return {'token': 'a_token',
+            'username': username,
+            'password': password, }
 
 
 @app.get("/login/{user_name: str}")
 async def login(password: str):
     pass
+
+
+if __name__ == '__main__':
+    uvicorn.run('main:app', host='0.0.0.0', port=8000, log_level='info')
+# uvicorn main:app --host '0.0.0.0' --port 8000 --reload
